@@ -1,0 +1,96 @@
+body {
+    background: url("../img/background.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 60px;
+    color: #99aebb;
+    margin-top: 100px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.container p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.textoBusca {
+    width: 75%;
+    padding: 10px 10px;
+}
+
+.buscar {
+    width: 21.5%;
+    min-height: 39px;
+    color: #99aebb;
+    background-color: #120B39;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.github {
+    margin-top: 20px;
+}
+
+.github .perfil a,
+.github .perfil ul {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.github .perfil a img {
+    max-width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.github .perfil ul {
+    padding-top: 72px;
+}
+
+.github .perfil ul li {
+    font-size: 26px;
+}
+
+.github .perfil ul li b {
+    font-weight: bolder;
+}
+
+.github #userRepositorio {
+    margin-top: 40px;
+}
+
+.github .repositorios {
+    display: inline-block;
+    width: 32%;
+    text-transform: capitalize;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 5px;
+}
+
+.github .repositorios a {
+    text-decoration: none;
+    color: #16074a;
+    ;
+    font-size: 20px;
+    display: block;
+    padding: 5px 0;
+}
+
+.github .repositorios a:hover {
+    background-color: #bddbf3;
+}

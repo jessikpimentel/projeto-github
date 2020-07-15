@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GIT-Users</title>
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/github.css">
+    </head>
+    <body>
+        <main>
+            <h1 class="titulo">GIT-Users</h1>
+            <div class="container">
+                <p>Digite o usuário do GitHub para visualizar seus projetos</p>
+                <input class="textoBusca"type="text">
+                <button class="buscar" type="button" onclick="buscar()">Buscar</button>
+                <div class="github">
+                    <div id="userInfo"></div>
+                    <div id="userRepositorio"></div>
+                </div>
+            </div>
+        </main>
+        <script src="./src/Model/Usuario.js"></script>
+        <script src="./src/Model/Repositorio.js"></script>
+        <script src="./src/Controller/UsuarioController.js"></script>
+        <script src="./src/Controller/RepositorioController.js"></script>
+        <script src="./src/View/UsuarioView.js"></script>
+        <script src="./src/View/RepositorioView.js"></script>
+        <script src="./src/main.js"></script>
+    </body>
+</html>

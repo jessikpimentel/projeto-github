@@ -1,12 +1,14 @@
 body {
-    background: url("../img/background.jpg") no-repeat fixed;
+    background: url("../img/background01.jpg") no-repeat fixed;
     background-size: cover;
 }
 
 .titulo {
     text-align: center;
     font-size: 60px;
-    color: #99aebb;
+    font-family: monospace;
+    text-shadow: 5px 3px 3px rgb(252, 252, 252);
+    color: #cbd445;
     margin-top: 100px;
 }
 
@@ -14,10 +16,13 @@ body {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #ffffffb6;
     padding: 25px;
     margin-top: 15px;
     font-size: 18px;
+    border-radius: 15px;
+    
+
 }
 
 .container p {
@@ -33,10 +38,15 @@ body {
 .buscar {
     width: 21.5%;
     min-height: 39px;
-    color: #99aebb;
-    background-color: #120B39;
+    color: #1c041f;
+    background-color: #edd9e5;
     font-size: 20px;
     vertical-align: middle;
+    border-radius: 5px;
+}
+
+.buscar:hover {
+    color: #cbd445;
 }
 
 .github {
